@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TestService {
     public User setUser(User user) {
+        System.out.println("uuu");
         return user;
     }
 }
